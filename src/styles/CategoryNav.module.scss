@@ -1,0 +1,25 @@
+.category {
+  display: flex;
+  justify-content: center; // 가운데 정렬
+  gap: 16px; // 버튼 사이 간격
+  margin-top: 20px;
+}
+
+.categoryBtn {
+  border: 1px solid lightgray;
+  border-radius: 2em;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.active {
+  background-color: black;
+  color: white;
+}

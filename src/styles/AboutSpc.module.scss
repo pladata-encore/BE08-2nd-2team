@@ -1,0 +1,44 @@
+.spiritSection {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.changeButton {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.chan {
+  border: 1px solid lightgray;
+  border-radius: 2em;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}

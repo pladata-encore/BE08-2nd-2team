@@ -1,0 +1,208 @@
+@import url('https://cdn.jsdelivr.net/npm/pretendard@latest/dist/web/static/pretendard.css');
+
+.whole {
+  margin-left: 3.5rem;
+}
+
+.topTitle {
+  padding-top: 4rem;
+  margin-left: 45%;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* 기본 컨테이너 */
+.container {
+  padding-top: 1.5rem;
+  position: relative;
+  background-color: #fff;
+  //padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  font-weight: 700;
+}
+
+/* ESG 경영체계 전체 섹션 */
+.esgManagementSectionFull {
+  //padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.sectionContentFull {
+  padding-top: 2rem;
+  max-width: 80%;
+  margin-left: 8rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: row; /* 이미지를 왼쪽에 텍스트를 오른쪽에 배치 */
+  gap: 2rem;
+}
+
+.imageContainerFull,
+.imageContainer {
+  flex: 2;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+  }
+}
+
+.textContainerFull {
+  width: 80%;
+  flex: 3;
+  text-align: left;
+  background: #f5f5f5;
+  padding: 3.5rem 2rem; /* 텍스트 주변에 여백 추가 */
+  border-radius: 20px; /* 텍스트 컨테이너에 약간의 둥근 모서리 적용 */
+  line-height: 0.7rem;
+}
+
+.sectionDescriptionFull,
+.sectionDescription {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #000;
+  margin-top: 3.4rem;
+  font-weight: 700;
+}
+
+.imgBox {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* ESG 이미지 호버 효과 */
+.hoverImage {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+/* 지속가능경영보고서 하단 */
+.sustainabilityReportBottom {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  margin-left: 1.5rem;
+
+  border-radius: 20px;
+}
+
+.background-wrap-bottom {
+  padding: 2rem 2rem;
+  text-align: center;
+  color: white;
+  margin-left: 4.5rem;
+  max-width: 81.5%;
+  display: flex; /* Flexbox 레이아웃 사용 */
+  flex-direction: column;
+  justify-content: center; /* 가로 방향 가운데 정렬 */
+  align-items: stretch;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  /* 세로 방향 가운데 정렬 */
+  .building {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    &:hover {
+      transform: scale(1.1); /* 약간 확대 */
+    }
+  }
+}
+
+.contentBottom {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.4;
+  padding: 1.5rem 2rem;
+  z-index: 2;
+  color: #fff;
+  span {
+    position: absolute;
+    top: 50%;
+  }
+}
+
+/* HAPPY & HEALTHY COMPANY 섹션 기본 유지 */
+.happyHealthySection {
+  margin-top: 0.5rem;
+}
+
+.sectionContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.imageTextBlock {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  order: 1;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+  .tabMenu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .tab {
+    width: 100%;
+    max-width: 240px;
+    font-size: 0.95rem;
+    padding: 0.5rem 1.4rem;
+  }
+
+  .sectionContent,
+  .sectionContentFull {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionDescription,
+  .sectionDescriptionFull {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .background-wrap-bottom {
+    padding: 2rem 1rem;
+  }
+
+  .contentBottom {
+    font-size: 1.5rem;
+  }
+}

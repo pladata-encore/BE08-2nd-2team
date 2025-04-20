@@ -1,0 +1,44 @@
+.gnbMobile {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 2rem;
+  margin-top: 1.3rem;
+  margin-right: 1.5rem;
+}
+
+.gnbMobile:hover {
+  color: #ed0909;
+}
+
+@media (max-width: 768px) {
+  .gnbMobile {
+    display: block;
+    font-size: 40px;
+  }
+}
+
+.container {
+  position: absolute;
+  border: 0.2rem #000;
+  top: 60px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.linkList {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000;
+}
