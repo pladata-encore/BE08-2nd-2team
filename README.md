@@ -22,7 +22,7 @@
 
 - 원본 사이트 주소 https://www.spc.co.kr/
 
-  <img src="images/spc_site.png" alt="사이트 이미지" width=450 />
+  <img src="images/spc_site.png" alt="사이트 이미지" width=650 />
 
 - 클론한 페이지 : Main Page, ABOUT SPC, ESG, SUPPORT
 
@@ -30,6 +30,10 @@
   React 핵심 기술의 실전 적용 능력을 기르기, 디자인 시스템과 UI 구성 능력 강화입니다.
 
 - 일정 계획 https://docs.google.com/spreadsheets/d/1_FgvwLlSDRLuiT1HNP0PlhnFXni2Vo0w6oDZlcEdaJY/edit?gid=0#gid=0
+
+## 구현한 SPA 사이트 주소 
+
+- https://meow-nyang.github.io/team2-react-clone/
 
 ## 요구사항 정의서
 
@@ -41,9 +45,21 @@
 
 ## 테스트 케이스
 
-  <img src="images/spc_anim.gif" alt="사이트 이미지" width=450 />
+- https://docs.google.com/spreadsheets/d/1OZd4xMyAOcGIATD5_dMIX67qgMTdET1doouybZqLZTU/edit?gid=0#gid=0
 
-- https://docs.google.com/spreadsheets/d/1Y5DfRmOucKZX6KkjrseeLGoPP62f8Gc8lFkO_vhCRlU/edit?gid=0#gid=0
+## 테스트 결과
+
+  <img src="images/spc_anim.gif" alt="사이트 이미지" width=650 />
+<br> <br/>
+  <img src="images/2.png" alt="사이트 이미지" width=650 />
+<br> <br/>
+  <img src="images/1.png" alt="사이트 이미지" width=650 />
+<br> <br/>
+  <img src="images/3.png" alt="사이트 이미지" width=650 />
+<br> <br/>
+  <img src="images/4.png" alt="사이트 이미지" width=650 />
+<br> <br/>
+  <img src="images/5.png" alt="사이트 이미지" width=650 />
 
 ## 한계점
 
