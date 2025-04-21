@@ -50,18 +50,18 @@
 ## 테스트 결과
 
   <img src="images/spc_anim.gif" alt="사이트 이미지" width=650 />
-<br> 메인화면 진입 시 동적 애니메이션 구현 테스트 <br/>
+<br> - 메인화면 진입 시 동적 애니메이션 구현 테스트 <br/><br/>
   <img src="images/2.png" alt="사이트 이미지" width=650 />
-<br> 가맹문의 사이트 진입 시 이미지 레이아웃 및 호버 기능 테스트 <br/>
+<br> - 가맹문의 사이트 진입 시 이미지 레이아웃 및 호버 기능 테스트 <br/><br/>
   <img src="images/1.png" alt="사이트 이미지" width=650 />
-<br> 페이지 언어 변경 시 메뉴 및 컨텐츠 언어가 실제로 변경 되는지 테스트 <br/>
+<br> - 페이지 언어 변경 시 메뉴 및 컨텐츠 언어가 실제로 변경 되는지 테스트 <br/><br/>
   <img src="images/3.png" alt="사이트 이미지" width=650 />
-<br> 버튼 탭 클릭 시 각 화면 렌더링 테스트 <br/>
+<br> - 버튼 탭 클릭 시 각 화면 렌더링 테스트 <br/><br/>
   <img src="images/4.png" alt="사이트 이미지" width=650 />
-<br> 버튼 탭 클릭 시 각 화면 렌더링 테스트 <br/>
+<br> - 버튼 탭 클릭 시 각 화면 렌더링 테스트 <br/><br/>
   <img src="images/5.png" alt="사이트 이미지" width=650 />
 
-<br> ESG 경영 페이지 정상 렌더링 여부 테스트 <br/>
+<br> - ESG 경영 페이지 정상 렌더링 여부 테스트 <br/><br/>
 
 
 ## 한계점
